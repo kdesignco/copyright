@@ -1,0 +1,9 @@
+  // HTML to define span and your fallback date
+
+   <p>© <span id="currentYear">2024</span> Your Website Name. All rights reserved.</p>
+
+
+<script>
+    // JavaScript to dynamically update the year
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+</script>
